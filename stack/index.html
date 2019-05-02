@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Buildarium Stack</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+		<!-- User CSS -->
+		<style id="user-css-output" type="text/css">
+			.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3 {
+  font-family: "Press Start 2P";
+  text-transform: none;
+  color: yellow;
+}
+.reveal .slides {
+  font-family: "Press Start 2P";
+}
+
+		</style>
+	</head>
+	<body class="reveal-viewport theme-font-quicksand theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="64c4755199a3ef6c2fae2ca512424494" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" id="title"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 822px; left: 229px; top: 264px;" data-block-id="a74c95cfa3eee42c44bac5a8f47e6605"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3>Buildarium</h3>
+
+<p>Tech Stack</p>
+
+<p> </p>
+
+<p>Diego Maceda &amp; Buck Tower</p>
+</div></div></section><section data-id="fba54851d694f0dc8b445a6a48e82d00" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 35px; height: auto;" data-block-id="1454dddf99e6e83a521972c84dde8e7b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; text-align: left;">
+<h2><span style="font-size:0.9em">Overview (Runtimes)</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 144px; height: auto;" data-block-id="f946f130ff8c35c813b0b9a3f4415753"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<p>Development Ecosystem (Local)</p>
+
+<ul>
+	<li><span style="font-size:0.7em">Docker Compose</span></li>
+</ul>
+
+<p>Test Ecosystem (Digital Ocean)</p>
+
+<ul>
+	<li>
+	<p><span style="font-size:0.7em">Docker</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.7em">Watchtower</span></p>
+	</li>
+</ul>
+
+<p>Production Ecosystem (Azure)</p>
+
+<ul>
+	<li><span style="font-size:0.7em">Azure Kubernetes Service</span></li>
+	<li><span style="font-size:0.7em">Azure App Service</span></li>
+	<li><span style="font-size:0.7em">Github Pages</span></li>
+</ul>
+</div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="07df883d89c18bc807d8c31b6e32de3d"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 35px; height: auto;" data-block-id="6bc68b7c71fcddcf5938f24237e9844e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; text-align: left;">
+<h2><span style="font-size:0.9em">Overview (Tools)</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 144px; height: auto;" data-block-id="359327bc3b70d6cac95e7902fa369678"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<p><span style="font-size:1.0em">Services</span></p>
+
+<ul>
+	<li><span style="font-size:0.7em">Github</span></li>
+	<li>
+	<p><span style="font-size:21px">Slack</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:21px">Jenkins</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:21px">kubectl</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:21px">Cloudflare (DNS &amp; SSL)</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:21px">Docker Hub</span></p>
+	</li>
+</ul>
+
+<p><span style="font-size:21px">​</span>Frameworks</p>
+
+<ul>
+	<li>
+	<p><span style="font-size:21px">Microservice Backends: ASP.NET Core (C#)</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:21px">SPA Frontend: Vue (Typescript)</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:21px">Static Frontend: HTML/CS/JS</span></p>
+	</li>
+</ul>
+</div></div></section><section data-background-iframe="https://buildarium.com" data-background-interactive="true" data-id="64d8d922e56169678eafc84f7777b455"><div class="sl-block" data-block-type="shape" style="width: 411px; height: 60px; left: 435px; top: 660px;" data-block-id="062c5968b6b00a47e49e4956aa37a318"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 411 60"><rect width="411" height="60" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 670px;" data-block-id="b1a94fc3484755059725130c207205c6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><span style="color:#000000"><span style="font-size:0.7em">buildarium.com</span></span></p>
+</div></div></section><section data-id="b54e4ed9c71c9eb87aee9e5bb0b5dc16" data-background-iframe="https://app.buildarium.com" data-background-interactive="true"><div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 411px; height: 60px; left: 435px; top: 660px;" data-block-id="c43c8d9a8dcb6ad92a239c96296b84b6"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 411 60"><rect width="411" height="60" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 340px; top: 670px;" data-block-id="349d0ff27a7ade18bfeca7619200c6f4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="color:#000000"><span style="font-size:0.7em">app.buildarium.com</span></span></p>
+</div></div></section><section data-id="6fa0b9e44755d539bea3858fdcc67792" data-background-color="#ffffff" data-background-iframe="https://api.buildarium.com/docs/" data-background-interactive="true"><div class="sl-block" data-block-type="shape" style="width: 411px; height: 60px; left: 435px; top: 660px;" data-block-id="46fbf604da53ed68b45401216b03ca21"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 411 60"><rect width="411" height="60" rx="0" ry="0" class="shape-element" fill="rgb(0, 0, 0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 670px;" data-block-id="5e568f3d01c4e776bf9eee277fb967bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><span style="color:#FFFFFF"><span style="font-size:0.7em">api.buildarium.com</span></span></p>
+</div></div></section><section class="stack" data-id="b549ae4c809273156efbc0080339a68a"><section data-id="6aaea233fab88a009d613388d8ae8a63" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 208px; height: auto;" data-block-id="88b4a84468dbf58557b1a9b923cd7aea"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1>Development Ecosystem</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 340px; top: 432px;" data-block-id="bd80ddf2694cbf31fb31605f2e3a66d0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Writing Code Locally</p>
+</div></div></section><section data-id="d9047e9a4a14dcf090d5faaa37a0e88c" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 20px; height: auto;" data-block-id="89e3fd3e52c1a4684e3f977d14c2be81"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Overview</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 94px; height: auto;" data-block-id="f22918ae0bee38316cc6db3063506075"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<h3><span style="color:#FFFFFF">Git Flow Branching Model</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 120px; left: 20px; top: 630px;" data-block-id="886835267e5b61ddbc3ff40ff92d6741"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 0);">
+<p><span style="font-size:0.5em">master</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 120px; left: 20px; top: 393px;" data-block-id="91f0411bfaeb12d74f4fef9f88d98dc3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 0);">
+<p><span style="font-size:0.5em">develop</span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 160px; top: 420px;" data-block-id="f50ca87e4bf69678235a98876497bf8f"><div class="sl-block-content" data-line-x1="-380" data-line-y1="108" data-line-x2="637" data-line-y2="108" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1017" height="1" viewbox="-380 108 1017 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-380" y1="108" x2="637" y2="108"></line><line stroke="#ffffff" stroke-width="2" x1="-380" y1="108" x2="637" y2="108"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 160px; top: 657px;" data-block-id="5e9827962c8f2c65359f66c11a04620e"><div class="sl-block-content" data-line-x1="-380" data-line-y1="108" data-line-x2="637" data-line-y2="108" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1017" height="1" viewbox="-380 108 1017 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-380" y1="108" x2="637" y2="108"></line><line stroke="#ffffff" stroke-width="2" x1="-380" y1="108" x2="637" y2="108"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 149px; top: 412px;" data-block-id="b0bb0a8778280e9f0b3a1cf67f9d58a0"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 149px; top: 648px;" data-block-id="d3504de2f1dd0474c1aa2c8d6678312c"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 234px; top: 326px;" data-block-id="d3c7b8889f351164ae0dbb3b8fb583f6"><div class="sl-block-content" data-line-x1="-380" data-line-y1="108" data-line-x2="-213" data-line-y2="109" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="167" height="1" viewbox="-380 108 167 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-380" y1="108" x2="-213" y2="109"></line><line stroke="#ffffff" stroke-width="2" x1="-380" y1="108" x2="-213" y2="109"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 223px; top: 318px;" data-block-id="9f97d6c7f45f8a9a96bd4edc250d0193"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 19;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 188px; top: 333px;" data-block-id="0867fd686634e06e72db5116e7daac43"><div class="sl-block-content" data-line-x1="28" data-line-y1="200" data-line-x2="68" data-line-y2="112" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 20;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="40" height="88" viewbox="28 112 40 88"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="28" y1="200" x2="68" y2="112"></line><line stroke="#ffffff" stroke-width="2" x1="28" y1="200" x2="68" y2="112"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 312px; top: 318px;" data-block-id="af762d6bbd3fbdc48a568c0f8cb512a6"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 21;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 392px; top: 318px;" data-block-id="d869fb64cd090fe5aae7f2451bd00e42"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 195px; left: 20px; top: 299px;" data-block-id="a8cdd554adcc197b9fb965d1c2c28f2b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23;">
+<p style="text-align: left;"><span style="font-size:15px">feature2</span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 400px; top: 326px;" data-block-id="224fc3f18ae1dde191a96812d69e6bc3"><div class="sl-block-content" data-line-x1="144" data-line-y1="193" data-line-x2="72" data-line-y2="106" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 24;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="72" height="87" viewbox="72 106 72 87"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="143" y1="191" x2="72" y2="106"></line><line stroke="#ffffff" stroke-width="2" x1="143" y1="191" x2="72" y2="106"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="2" transform="translate(143,191) rotate(-39.611)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 463px; top: 412px;" data-block-id="ffde16712e8747f3156e18705bf9a524"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 25;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 203px; left: 20px; top: 485px;" data-block-id="1d6a25dd431880d009aec12b56df9e5e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26;">
+<p style="text-align:left"><span style="font-size:15px">release-1.0.0</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 203px; left: 20px; top: 557px;" data-block-id="b566fc36a33fc876085fe4761dfe91ce"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27;">
+<p style="text-align:left"><span style="font-size:15px">hotfix-1.0.1</span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 561px; top: 421px;" data-block-id="7f439cee0e53a5fdea6b37bdae74ede2"><div class="sl-block-content" data-line-x1="136" data-line-y1="195" data-line-x2="72" data-line-y2="106" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 28;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="64" height="89" viewbox="72 106 64 89"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="136" y1="195" x2="72" y2="106"></line><line stroke="#ffffff" stroke-width="2" x1="136" y1="195" x2="72" y2="106"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 168px; left: 20px; top: 216px;" data-block-id="08edeef02a3809d95db691106163e7eb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29;">
+<p style="text-align: left;"><span style="font-size:15px">feature1</span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 239px; top: 236px;" data-block-id="67a42b060818bf7da32db80b35eb325d"><div class="sl-block-content" data-line-x1="-380" data-line-y1="108" data-line-x2="-134" data-line-y2="109" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 30;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="246" height="1" viewbox="-380 108 246 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-380" y1="108" x2="-134" y2="109"></line><line stroke="#ffffff" stroke-width="2" x1="-380" y1="108" x2="-134" y2="109"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 228px; top: 228px;" data-block-id="9e7b91030b58367ae3fbc6a5462d6114"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 31;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 160px; top: 245px;" data-block-id="42644c59d0694facbe301716f5b26b10"><div class="sl-block-content" data-line-x1="-5" data-line-y1="290" data-line-x2="69" data-line-y2="114" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 32;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="74" height="176" viewbox="-5 114 74 176"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-5" y1="290" x2="69" y2="114"></line><line stroke="#ffffff" stroke-width="2" x1="-5" y1="290" x2="69" y2="114"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 397px; top: 228px;" data-block-id="4723bcafbf3df89d2b393461f5c088dc"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 33;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 477px; top: 228px;" data-block-id="221f586842f1b6f5fa09f83841bd74dc"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 34;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 486px; top: 237px;" data-block-id="2561949ade7dfcd993a0f3abb465d23d"><div class="sl-block-content" data-line-x1="146" data-line-y1="282" data-line-x2="72" data-line-y2="106" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 35;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="74" height="176" viewbox="72 106 74 176"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="145" y1="280" x2="72" y2="106"></line><line stroke="#ffffff" stroke-width="2" x1="145" y1="280" x2="72" y2="106"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="2" transform="translate(145,280) rotate(-22.805)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 552px; top: 412px;" data-block-id="a11a255255cd8627a29c9b90c114babf"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 36;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 613px; top: 496px;" data-block-id="9e3ac26279790427e2f7ab490d6f27e9"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 37;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 622px; top: 505px;" data-block-id="52a21d62bd07b767d7532e3084d258a2"><div class="sl-block-content" data-line-x1="136" data-line-y1="195" data-line-x2="204" data-line-y2="195" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 38;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="68" height="1" viewbox="136 195 68 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="136" y1="195" x2="204" y2="195"></line><line stroke="#ffffff" stroke-width="2" x1="136" y1="195" x2="204" y2="195"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 682px; top: 496px;" data-block-id="c6540b94d81354dd4cbc6737a7521ca6"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 39;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 691px; top: 504px;" data-block-id="4c16b6936c66e63be5915d1f4b72d099"><div class="sl-block-content" data-line-x1="150" data-line-y1="250" data-line-x2="72" data-line-y2="106" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 40;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="78" height="144" viewbox="72 106 78 144"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="149" y1="248" x2="72" y2="106"></line><line stroke="#ffffff" stroke-width="2" x1="149" y1="248" x2="72" y2="106"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="2" transform="translate(149,248) rotate(-28.443)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 760px; top: 648px;" data-block-id="45f0c505abf56e7f3ddb03d1b41227fa"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 41;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 760px; top: 412px;" data-block-id="dc46cf63604f5cf0b708d1d9751ea936"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 43;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 691px; top: 429px;" data-block-id="6f82dd07aa1b43e4028da2e285bb7a60"><div class="sl-block-content" data-line-x1="119" data-line-y1="50" data-line-x2="41" data-line-y2="125" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 45;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="78" height="75" viewbox="41 50 78 75"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="118" y1="51" x2="41" y2="125"></line><line stroke="#ffffff" stroke-width="2" x1="118" y1="51" x2="41" y2="125"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="2" transform="translate(118,51) rotate(226.123)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 849px; top: 585px;" data-block-id="c2a4e8100453578de7bd98431dee5ce3"><div class="sl-block-content" data-line-x1="136" data-line-y1="195" data-line-x2="105" data-line-y2="267" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 46;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="31" height="72" viewbox="105 195 31 72"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="136" y1="195" x2="105" y2="267"></line><line stroke="#ffffff" stroke-width="2" x1="136" y1="195" x2="105" y2="267"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 872px; top: 571px;" data-block-id="1a6fb4bcbd6523930def6449269f1220"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 47;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 877px; top: 580px;" data-block-id="c61850965ad583492bd8bca69d978b06"><div class="sl-block-content" data-line-x1="136" data-line-y1="195" data-line-x2="204" data-line-y2="195" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 48;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="68" height="1" viewbox="136 195 68 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="136" y1="195" x2="204" y2="195"></line><line stroke="#ffffff" stroke-width="2" x1="136" y1="195" x2="204" y2="195"></line></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 937px; top: 571px;" data-block-id="5674f5a38bb9e640ad4bd8cf40bafbc6"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 49;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 946px; top: 579px;" data-block-id="0d419328c3136b549f4ab2854dc7f1e6"><div class="sl-block-content" data-line-x1="150" data-line-y1="175" data-line-x2="72" data-line-y2="106" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 50;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="78" height="69" viewbox="72 106 78 69"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="149" y1="174" x2="72" y2="106"></line><line stroke="#ffffff" stroke-width="2" x1="149" y1="174" x2="72" y2="106"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="2" transform="translate(149,174) rotate(-48.504)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 946px; top: 429px;" data-block-id="375388c32c8815a2f72d7fcf222694ca"><div class="sl-block-content" data-line-x1="120" data-line-y1="-25" data-line-x2="41" data-line-y2="125" data-line-color="#ffffff" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 51;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="79" height="150" viewbox="41 -25 79 150"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="119" y1="-23" x2="41" y2="125"></line><line stroke="#ffffff" stroke-width="2" x1="119" y1="-23" x2="41" y2="125"></line><path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="2" transform="translate(119,-23) rotate(207.774)" d="M -6 -6 L 0 0 L 6 -6"></path></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 1016px; top: 648px;" data-block-id="09152cc689799ecec94599143cb5715f"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 52;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 17px; height: 17px; left: 1016px; top: 412px;" data-block-id="2583feb51e8802e4ce09533606c9cd7a"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 53;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 17 17"><ellipse rx="8.5" ry="8.5" cx="8.5" cy="8.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div></section><section data-id="be082ee144724798c2e862f52efcbd00" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 775px; height: 300px; left: 80px; top: 216px;" data-block-id="af87dd1394e6894f26b68c3f60a69def"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 10; border-width: 1px;"><pre class="bash"><code data-line-numbers="1|9|13">$ git clone git@github.com:buildarium/bdapi-kits.git
+remote: Enumerating objects: 210, done.
+remote: Counting objects: 100% (210/210), done.
+remote: Compressing objects: 100% (126/126), done.
+remote: Total 210 (delta 101), reused 169 (delta 63), pack-reused 0
+Receiving objects: 100% (210/210), 34.60 KiB | 3.84 MiB/s, done.
+Resolving deltas: 100% (101/101), done.
+
+$ git checkout develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+Switched to a new branch 'develop'
+
+$ git checkout -b myfeature develop
+Switched to a new branch 'myfeature'</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 880px; top: 205px;" data-block-id="aeb472d13df3351b420778f9cb7b9bf9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<p><span style="font-size:0.5em">​1. Clone</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 880px; top: 371px;" data-block-id="93ddedaa3e83dc74027050867277dc30"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+<p><span style="font-size:15px">2. Checkout <span style="color:#FFFF00">develop</span> branch</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 880px; top: 451px;" data-block-id="d8bfcbf8110cc435f5ed368338021d4f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left;">
+<p><span style="font-size:15px">3. Create feature branch</span></p>
+</div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="a36e86d1d94cef80d6b25a5b64d33014"><div class="sl-block" data-block-type="code" style="width: 775px; height: 360px; left: 80px; top: 180px;" data-block-id="c5f75678d4a404ec4b0e0c2d0d1b994f"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 10; border-width: 1px;"><pre class="bash"><code data-line-numbers="1">$ docker-compose up
+Starting bdapi-kits_db_1 ... done
+Recreating bdapi-kits_bdapi-auth_1 ... done
+Attaching to bdapi-kits_db_1, bdapi-kits_bdapi-auth_1
+db_1          | Active database: graph.db
+bdapi-auth_1  | watch : Polling file watcher is enabled
+bdapi-auth_1  | watch : Started
+db_1          | 2019-05-02 18:12:49.680+0000 INFO  ======== Neo4j 3.5.5 ========
+db_1          | 2019-05-02 18:12:49.786+0000 INFO  Starting...
+db_1          | 2019-05-02 18:13:18.221+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+db_1          | 2019-05-02 18:13:35.840+0000 INFO  Started.
+bdapi-auth_1  | Hosting environment: Development
+bdapi-auth_1  | Content root path: /app
+bdapi-auth_1  | Now listening on: http://0.0.0.0:80
+bdapi-auth_1  | Application started. Press Ctrl+C to shut down.
+db_1          | 2019-05-02 18:13:56.629+0000 INFO  Remote interface available at http://localhost:7474/</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 880px; top: 205px;" data-block-id="1976774b69de5b023b3a89608f61c893"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<p><span style="font-size:0.5em">4. Boot up local environment</span></p>
+
+<p> </p>
+
+<p><span style="font-size:0.5em">Uses docker-compose:</span></p>
+
+<ul>
+	<li style="font-size:15px">
+<span style="color:#FFFF00">Hot reload</span> by mounting local code volume into Docker container</li>
+	<li style="font-size:15px">Also <span style="color:#FFFF00">starts all dependency containers</span> (Neo4j, Postgres, etc)</li>
+</ul>
+</div></div>
+
+</section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="ed068ff5a3c0b6c50ef176ac4887e158"><div class="sl-block" data-block-type="text" style="height: auto; width: 579px; left: 351px; top: 341px;" data-block-id="69a00c769f5865f21a4ee983a016cfa1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: center; color: rgb(0, 0, 0);">
+<p><span style="font-size:1.0em">5. HACK AWAY! 🔨🔨🔨</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 568px; height: 91px; left: 357px; top: 315px;" data-block-id="2b5cadd387da88e1729db2e4e7093f2f"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 568 91"><rect width="568" height="91" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="e03aa88a24ae63d53ec2daf5882a1d27"><div class="sl-block" data-block-type="code" style="width: 775px; height: 300px; left: 80px; top: 216px;" data-block-id="2af67c2c5ce21857dd53f2e642db9de1"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 10; border-width: 1px;"><pre class="bash"><code data-line-numbers="1|8">$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+$ git pull
+Already up to date.
+
+$ git merge --no-ff myfeature
+Updating ea1b82a..05e9557
+(Summary of changes)
+$ git branch -d myfeature
+Deleted branch myfeature (was 05e9557).
+$ git push origin develop</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 880px; top: 210px;" data-block-id="b7e6a3d241fabc57766a5a2f70f99b43"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+<p><span style="font-size:15px">6. Checkout <span style="color:#FFFF00">develop</span> branch</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 880px; top: 347px;" data-block-id="c129cbfb12ff076c57f5eb13ed046b58"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;">
+<p><span style="font-size:15px">7. Merge feature branch</span></p>
+</div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="9ecc3dafa3b3f22730d7fb9490686ce7"><div class="sl-block" data-block-type="code" style="width: 775px; height: 513px; left: 80px; top: 104px;" data-block-id="40f29a876c501208145d5f020e49b50e"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 10; border-width: 1px;"><pre class="bash"><code data-line-numbers="1,3,5|9,11,14,16,18">$ git checkout -b release-1.0.2 develop
+Switched to a new branch "release-1.0.2"
+$ ./bump-version.sh 1.0.2
+Files modified successfully, version bumped to 1.0.2.
+$ git commit -a -m "Bumped version number to 1.0.2"
+[release-1.0.2 74d9424] Bumped version number to 1.0.2
+1 files changed, 1 insertions(+), 1 deletions(-)
+
+$ git checkout master
+Switched to branch 'master'
+$ git merge --no-ff release-1.0.2
+Merge made by recursive.
+(Summary of changes)
+$ git tag -a 1.0.2
+
+$ git checkout develop
+Switched to branch 'develop'
+$ git merge --no-ff release-1.0.2
+Merge made by recursive.
+(Summary of changes)
+
+$ git branch -d release-1.0.2
+Deleted branch release-1.0.2 (was ff452fe).
+
+$ git push</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 880px; top: 101px;" data-block-id="c74eac10ffffbde117ce7b40f5ad1331"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<p><span style="font-size:15px">8. Create release branch</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 880px; top: 274px;" data-block-id="21766c01cbcc80ede4b1b587d0296ae9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+<p><span style="font-size:15px">9. Merge into <span style="color:#FFFF00">develop</span> &amp;</span></p>
+
+<p><span style="color:#FFFF00"><span style="font-size:15px">master</span></span></p>
+</div></div></section></section><section class="stack" data-id="39fd59a9b7caa62879a35ac288accb8e"><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="c37f94ebce1c7304152a5e61373849cd"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 208px; height: auto;" data-block-id="3b8c7bcf0026480651a122d4384d76e0"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui">
+<h1>Test</h1>
+
+<h1>Ecosystem</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 432px;" data-block-id="ad87badb430456feed237a01e7132978"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Cutting-edge, accessible runtime, minimal testing</p>
+</div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="d4d45089ac2d0919a53ee0b334e3ce19">
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 480px; top: 121px;" data-block-id="02324ffeb4575ef7fa6cdd26b709801f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Github</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 480px; top: 108px;" data-block-id="dfa1fe749301a4fee56410348e299eba"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 480px; top: 337px;" data-block-id="c80f786bb17fe08103b125d9d30f2595"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Jenkins</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 480px; top: 324px;" data-block-id="06f2c9596fb2f7c8352a0a1fab2edf19"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 480px; top: 553px;" data-block-id="7d5a91f9e5e3e48d2de565c7376b1ebd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Docker Hub</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 480px; top: 540px;" data-block-id="d5b1b8b7eefe520fe0b662ee68920ccc"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 434px; left: 23px; top: 96px;" data-block-id="dd970cf4b07410c99daca0556cddff4d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; text-align: right;">
+<p><span style="font-size:0.5em">1. Code is merged into <span style="color:#FFFF00">develop</span> branch</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 434px; left: 23px; top: 312px;" data-block-id="aae391c8bcafbc5744742f43b8beeaf0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; text-align: right;">
+<p><span style="font-size:0.5em">2. Jenkins runs tests and builds Docker image</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 434px; left: 23px; top: 528px;" data-block-id="902adcad0af85e7ec5d72425742bebb8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; text-align: right;">
+<p><span style="font-size:0.5em">3. Docker image pushed twice to Docker Hub with tags</span></p>
+
+<p><span style="font-size:0.5em"><span style="color:#FFFF00">:[BUILD_NUMBER]</span> and <span style="color:#FFFF00">:dev</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 640px; top: 174px;" data-block-id="03ead41a46548a3be38bc23f1eac216f"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="100" data-line-y2="-86" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 19;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="150" viewbox="100 -86 1 150"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(100,-78) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 639px; top: 390px;" data-block-id="7acf199d1364b93e2ad3e0d8ed4113a7"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="100" data-line-y2="-86" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 20;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="150" viewbox="100 -86 1 150"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(100,-78) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 305px; left: 720px; top: 230px;" data-block-id="018f163e2e04b3296098eb368df12ca4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21; text-align: left;">
+<p><span style="font-size:15px">Webhook on Github</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 364px; left: 720px; top: 446px;" data-block-id="dfabf5fe821133b5adccf673dcbb28e3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23; text-align: left;">
+<p><span style="font-size:15px"><span style="color:#FFFF00">docker push</span> on Jenkins</span></p>
+</div></div></section><section data-id="a9ba89780ab2475395a37deb5274a6fe" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 631px; left: 640px; top: 0px; height: auto;" data-block-id="2a52c84287be016930992d37a5a7b40d"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1><span style="font-size:0.7em">Jenkinsfile</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 624px; height: 701px; left: 16px; top: 10px;" data-block-id="714f85905d09396d6664bd3cebcda04a"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 12; font-size: 87%;"><pre class="bash"><code data-line-numbers="2-6|11-16|17-22|27-28|34-36">pipeline {
+  environment {
+    registry = "buildarium/bdapi-kits"
+    registryCredential = 'dockerhub'
+    dockerImage = ''
+  }
+
+  agent any
+
+  stages {
+    stage('Test') {
+      steps {
+        checkout scm
+        sh dotnet test
+      }
+    }
+    stage('Build') {
+      steps {
+        script {
+          dockerImage = docker.build registry
+        }
+      }
+    }
+    stage('Deploy') {
+      steps{
+        script {
+          docker.withRegistry('', registryCredential) {
+            dockerImage.push("${env.BUILD_NUMBER}")
+            if (env.BRANCH_NAME == 'master') {
+              dockerImage.push("latest")
+              sh "kubectl set image deployment/bdapi-auth \
+                  bdapi-kits=buildarium/bdapi-auth:${env.BUILD_NUMBER} \
+                  --kubeconfig /var/lib/jenkins/config"
+            } else if (env.BRANCH_NAME == 'develop') {
+              dockerImage.push("dev")
+            }
+          }
+        }
+        sh "docker rmi $registry:$BUILD_NUMBER"
+      }
+    }
+  }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 560px; left: 680px; top: 161px;" data-block-id="b6986f61205677eb4592923697798e94"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;">
+<p><span style="font-size:15px">1. Set up testing environment</span></p>
+
+<ul>
+	<li style="font-size: 15px;">
+<span style="color:#FFFF00">registry</span> = Docker image name</li>
+	<li style="font-size: 15px;">
+<span style="color:#FFFF00">registryCredential</span> = Docker Hub credentials saved to Jenkins</li>
+	<li style="font-size: 15px;">
+<span style="color:#FFFF00">dockerImage</span> = global variable to be set and get in multiple steps</li>
+</ul>
+
+<p style="font-size: 15px;"> </p>
+
+<p style="font-size: 15px;">2. Run unit and integration tests</p>
+
+<p style="font-size: 15px;"> </p>
+
+<p style="font-size: 15px;">3. Build the docker image using <span style="color:#FFFF00">registry</span></p>
+
+<p style="font-size: 15px;"> </p>
+
+<p style="font-size: 15px;">4. Push image to Docker Hub with tag:</p>
+
+<p style="font-size: 15px;"><span style="color:#FFFF00">bdapi-kits:[BUILD_NUMBER]</span></p>
+
+<p style="font-size: 15px;"> </p>
+
+<p style="font-size: 15px;">5. Push image to Docker Hub with tag:</p>
+
+<p style="font-size: 15px;"><span style="color:#FFFF00">bdapi-kits:dev</span></p>
+</div></div></section><section data-id="faf8fe551f6aa9797bad218700da7486" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="shape" style="width: 411px; height: 60px; left: 435px; top: 660px;" data-block-id="6d694122ca7926f60f5ab76030cbb65a"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 411 60"><rect width="411" height="60" rx="0" ry="0" class="shape-element" fill="rgb(0, 0, 0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 411px; left: 435px; top: 670px;" data-block-id="2a1d97fedfa2b0c19509e52a3abe3eff"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="color:#FFFFFF"><span style="font-size:0.7em">Jenkins</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 895px; height: 720px; left: 193px; top: 0px;" data-block-id="24a395a1cfe550bd2a43a14b14973582"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="1678" data-natural-height="1350" style="" data-lazy-loaded="" data-src="buildariumstack/ea322aa41bc983fc6d06165d1111df1b.png"></div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="88ec1daf71368ccd5bd984bf40d0ce4d"><div class="sl-block" data-block-type="shape" style="width: 411px; height: 60px; left: 435px; top: 660px;" data-block-id="86089c4ffb7581c4dae2a4e30465e767"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 411 60"><rect width="411" height="60" rx="0" ry="0" class="shape-element" fill="rgb(0, 0, 0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 411px; left: 435px; top: 670px;" data-block-id="dcfb58b229d1005531d516417a69c161"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="color:#FFFFFF"><span style="font-size:0.7em">Docker Hub</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 799px; height: 719px; left: 242px; top: 1px; min-width: 4px; min-height: 4px;" data-block-id="008a24e0333a7966b0c76c6477bd3a8a"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="1167" data-natural-height="1350" style="left: 0px; top: -23px; width: 799px; height: 924px;" data-crop-x="0" data-crop-y="0.025185" data-crop-width="1" data-crop-height="0.777778" data-lazy-loaded="" data-src="buildariumstack/ce9f59cd6df0613e6b8ecfa46ba81dc8.png"></div></div></section><section data-id="3f1bd13c39f1afd6b66d42a64dd49303" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 560px; height: 480px; left: 640px; top: 216px;" data-block-id="b7c477fcbaf9040773cb79fcd297c298"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 560 480"><defs><clippath id="shape-mask-1-1556824721984"><rect width="560" height="480" rx="0" ry="0"></rect></clippath></defs><rect width="560" height="480" rx="0" ry="0" clip-path="url(#shape-mask-1-1556824721984)" class="shape-element" fill="rgb(0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 406px; height: 198px; left: 27px; top: 301px;" data-block-id="7829bee4f7ffdc22534744766650ec39"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="407" data-natural-height="198" style="" data-lazy-loaded="" data-src="buildariumstack/b09589e7256d48edd67c8556e43cc3c2.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 560px; left: 640px; top: 134px;" data-block-id="05d14fcbd6d52f74412eb6b55c69e1b4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 0.9099999999999999;" data-has-line-height="">
+<p>Test Server</p>
+
+<p><span style="color:#FFFF00"><span style="font-size:0.5em">test.buildarium.com</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 127px; height: 127px; left: 857px; top: 0px;" data-block-id="281240b3af45becf7e0df3aa5acba8d8"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1200" data-natural-height="1200" data-lazy-loaded="" data-src="buildariumstack/7f991a9f90463a56103b05e1a0c3337a.png"></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 259px; height: 53px; left: 671px; top: 286px;" data-block-id="f590653c9df2f24f27358951cc8071e9"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 259 53"><rect width="259" height="53" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 259px; left: 671px; top: 286px;" data-block-id="18958a0458695eb9385e32a681566ba8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 0, 0);">
+<p><span style="font-size:0.5em"><font color="#000000"><span style="caret-color:rgb(0, 0, 0)">watchtower</span></font></span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 259px; height: 53px; left: 671px; top: 371px;" data-block-id="90c35fbb441d47a7adc21458cc73f3cd"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 259 53"><rect width="259" height="53" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 259px; left: 671px; top: 371px;" data-block-id="46f2795fe45da079f3cb4ec96f48f5d3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(0, 0, 0);">
+<p><span style="font-size:0.5em"><span>bdapi-kits</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 259px; height: 53px; left: 671px; top: 536px;" data-block-id="ee13655399a2821826a9b7b1976821dd"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 259 53"><rect width="259" height="53" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 259px; left: 671px; top: 536px;" data-block-id="2f01b6a954474200667860837b13a00f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; color: rgb(0, 0, 0);">
+<p><span style="font-size:0.5em"><span>neo4j</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 259px; height: 53px; left: 671px; top: 621px;" data-block-id="16e26538674149c2deb2ac2cb375435d"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 20;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 259 53"><rect width="259" height="53" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 259px; left: 671px; top: 621px;" data-block-id="b5ee76047161e2cb9e3afa6d6e7836cb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21; color: rgb(0, 0, 0);">
+<p><span style="font-size:0.5em"><span>...</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 259px; height: 53px; left: 671px; top: 449px;" data-block-id="cb27a8b3a5b396241cdca91587459b23"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 259 53"><rect width="259" height="53" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 259px; left: 671px; top: 449px;" data-block-id="2958bfe2ddb2284e9db0a88800957bf2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23; color: rgb(0, 0, 0);">
+<p><span style="font-size:0.5em"><span>bdweb-app</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 240px; left: 941px; top: 372px;" data-block-id="c26c98867ebc9986256514b2683dd6ed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 24;">
+<p style="text-align: left;"><span style="font-size:15px">:5202</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 240px; left: 941px; top: 449px;" data-block-id="53fd10e5331f974ee3a15615834a44e0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25;">
+<p style="text-align:left"><span style="font-size:15px">:5201</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 240px; left: 941px; top: 536px;" data-block-id="94f2bce83fbab550f49e4173f6866e07"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26;">
+<p style="text-align:left"><span style="font-size:15px">:7474</span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 433px; top: 313px;" data-block-id="f48282d98fe1fa5067fad33c7c52d28e"><div class="sl-block-content" data-line-x1="-107" data-line-y1="107" data-line-x2="144" data-line-y2="29" data-line-color="#ffffff" data-line-start-type="circle" data-line-end-type="none" style="z-index: 27;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="251" height="78" viewbox="-107 29 251 78"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-101" y1="105" x2="144" y2="29"></line><line stroke="#ffffff" stroke-width="4" x1="-101" y1="105" x2="144" y2="29"></line><ellipse rx="6" ry="6" cx="-101" cy="105" fill="#ffffff"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 510px; top: 364px;" data-block-id="ef22d4e1601e45e10814e3669d0e1ee6"><div class="sl-block-content" data-line-x1="-30" data-line-y1="80" data-line-x2="131" data-line-y2="114" data-line-color="#ffffff" data-line-start-type="circle" data-line-end-type="arrow" style="z-index: 28;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="161" height="34" viewbox="-30 80 161 34"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-24" y1="81" x2="125" y2="113"></line><line stroke="#ffffff" stroke-width="4" x1="-24" y1="81" x2="125" y2="113"></line><polygon fill="#ffffff" transform="translate(125,113) rotate(101.925)" points="0,-6 6,6 -6,6"></polygon><ellipse rx="6" ry="6" cx="-24" cy="81" fill="#ffffff"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 549px; left: 80px; top: 184px;" data-block-id="de7596dddf894184a04e15aadfe6fef4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; text-align: left;">
+<p><span style="font-size:0.5em">1. <span style="color:#FFFF00">watchtower</span> watches Docker Hub for new versions of <span style="color:#FFFF00">:dev</span> tag for each running container</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 549px; left: 74px; top: 480px;" data-block-id="b4e21570c628d6360ca4544fe460a879"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31; text-align: left;">
+<p><span style="font-size:15px">2. Upon seeing a new <span style="color:#FFFF00">[PROJECT]:dev </span>image on Docker Hub, watchtower hot-swaps the old image for the new one, accessible at the same port:</span></p>
+
+<p><span style="color:#FFFF00"><span style="font-size:15px">test.buildarium.com:[PORT]</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 517px; left: 671px; top: 228px;" data-block-id="892fdc214898e47e0d1e9a3530617556"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 32; text-align: left;">
+<p><span style="font-size:15px">Running several Docker containers:</span></p>
+</div></div></section></section><section class="stack" data-id="3b2a69436d3b89b2d3424b70215406f5"><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="7260e993a6ef7a027e5d156d619d986e"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 208px; height: auto;" data-block-id="427233a03165054b4a2ebbf269977353"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui">
+<h1>Production</h1>
+
+<h1>Ecosystem</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 432px;" data-block-id="83a6b0a2e684d9c45ac95c32994b4f26"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Publicly accessible, fully tested,</p>
+
+<p>LIVE</p>
+</div></div></section><section data-id="bb7ef8481461dad60422e51e21e40643" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 480px; top: 121px;" data-block-id="312ba2e489955eee12a3674f1024ab89"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 24; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Github</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 480px; top: 108px;" data-block-id="242c06cb121f3ae7e170dd290a8311b4"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 23;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 480px; top: 337px;" data-block-id="f9ac7e50a86169621874ccc714dce989"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Jenkins</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 480px; top: 324px;" data-block-id="3c4d5caf89615885be4f1c136d1e964a"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 25;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 480px; top: 553px;" data-block-id="4ce13b1cddda1552ece15eb43bc7e29e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Docker Hub</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 480px; top: 540px;" data-block-id="a85bdbce6b58779fddd9d25546fa20b2"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 27;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 434px; left: 23px; top: 96px;" data-block-id="f1c33aa64173cb06da95e24344419c8a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; text-align: right;">
+<p><span style="font-size:0.5em">1. Code is merged into <span style="color:#FFFF00">master</span> branch</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 434px; left: 23px; top: 312px;" data-block-id="1a32e14f30d01276f8f6a52f89ea4d92"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 30; text-align: right;">
+<p><span style="font-size:0.5em">2. Jenkins runs tests and builds Docker image</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 434px; left: 23px; top: 528px;" data-block-id="cf6d9190938842991e7943ebec9c46ed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31; text-align: right;">
+<p><span style="font-size:0.5em">3. Docker image pushed twice to Docker Hub with tags</span></p>
+
+<p><span style="font-size:0.5em"><span style="color:#FFFF00">:[BUILD_NUMBER]</span> and <span style="color:#FFFF00">:latest</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 640px; top: 174px;" data-block-id="ced4cb0b2eb6a6c5161fa7c766a03c50"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="100" data-line-y2="-86" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 32;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="150" viewbox="100 -86 1 150"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(100,-78) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 639px; top: 390px;" data-block-id="bf6b90a4b8a7e9147a1c19c58506d4fe"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="100" data-line-y2="-86" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 33;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="150" viewbox="100 -86 1 150"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(100,-78) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 305px; left: 720px; top: 230px;" data-block-id="b81c26aed5dd3cf1ee8baa4af0ee63ee"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 34; text-align: left;">
+<p><span style="font-size:15px">Webhook on Github</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 364px; left: 720px; top: 446px;" data-block-id="5722fcb49c583155ebccd1ceb9b5e792"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 35; text-align: left;">
+<p><span style="font-size:15px"><span style="color:#FFFF00">docker push</span> on Jenkins</span></p>
+</div></div></section><section data-id="7b99c7909e83c9d6546b6689dec13711" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 631px; left: 640px; top: 0px; height: auto;" data-block-id="a415e7c60e3d789dd8a571f7a06c9e5f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;">
+<h1><span style="font-size:0.7em">Jenkinsfile</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 624px; height: 701px; left: 16px; top: 10px;" data-block-id="0b27a160d1f714f731d43740070e11be"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 13; font-size: 87%;"><pre class="bash"><code data-line-numbers="2-6|11-16|17-22|27-28|29-33">pipeline {
+  environment {
+    registry = "buildarium/bdapi-kits"
+    registryCredential = 'dockerhub'
+    dockerImage = ''
+  }
+
+  agent any
+
+  stages {
+    stage('Test') {
+      steps {
+        checkout scm
+        sh dotnet test
+      }
+    }
+    stage('Build') {
+      steps {
+        script {
+          dockerImage = docker.build registry
+        }
+      }
+    }
+    stage('Deploy') {
+      steps{
+        script {
+          docker.withRegistry('', registryCredential) {
+            dockerImage.push("${env.BUILD_NUMBER}")
+            if (env.BRANCH_NAME == 'master') {
+              dockerImage.push("latest")
+              sh "kubectl set image deployment/bdapi-auth \
+                  bdapi-kits=buildarium/bdapi-auth:${env.BUILD_NUMBER} \
+                  --kubeconfig /var/lib/jenkins/config"
+            } else if (env.BRANCH_NAME == 'develop') {
+              dockerImage.push("dev")
+            }
+          }
+        }
+        sh "docker rmi $registry:$BUILD_NUMBER"
+      }
+    }
+  }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 560px; left: 680px; top: 161px;" data-block-id="98775d4d44e32815f9570ee9d3a1fd4d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left;" dir="ui">
+<p><span style="font-size:15px">1. Set up testing environment</span></p>
+
+<ul>
+	<li style="font-size:15px">
+<span style="color:#FFFF00">registry</span> = Docker image name</li>
+	<li style="font-size:15px">
+<span style="color:#FFFF00">registryCredential</span> = Docker Hub credentials saved to Jenkins</li>
+	<li style="font-size:15px">
+<span style="color:#FFFF00">dockerImage</span> = global variable to be set and get in multiple steps</li>
+</ul>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">2. Run unit and integration tests</p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">3. Build the docker image using <span style="color:#FFFF00">registry</span></p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">4. Push image to Docker Hub with tag:</p>
+
+<p style="font-size:15px"><span style="color:#FFFF00">bdapi-kits:[BUILD_NUMBER]</span></p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">5. Push image to Docker Hub with tag:</p>
+
+<p style="font-size:15px"><span style="color:#FFFF00">bdapi-kits:master</span></p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">6. Update the Kubernetes <span style="color:#FFFF00">bdapi-kits </span>service's image using <span style="color:#FFFF00">kubectl</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 618px; height: 144px; left: 662px; top: 499px;" data-block-id="7c838cb57aa9ed7124e3bd11a539adad"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 618 144"><defs><clippath id="shape-mask-2-1556825973360"><rect width="618" height="144" rx="0" ry="0"></rect></clippath></defs><rect width="618" height="144" rx="0" ry="0" clip-path="url(#shape-mask-2-1556825973360)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div></section><section data-id="c5a550d67fc5c6f1e0b79e1ea9474b6d" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 631px; left: 640px; top: 0px; height: auto;" data-block-id="f607e30ca5db0c6b97a63aac44d80171"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1><span style="font-size:0.7em">Jenkinsfile</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 624px; height: 325px; left: 16px; top: 10px;" data-block-id="0c1276741dab84260a8c962278a602f9"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 12; font-size: 87%;"><pre class="bash"><code data-line-numbers="8-9">pipeline {
+  ...
+    stage('Deploy') {
+      steps{
+        script {
+          docker.withRegistry('', registryCredential) {
+            dockerImage.push("${env.BUILD_NUMBER}")
+            if (env.BRANCH_NAME == 'master') {
+              dockerImage.push("latest")
+            } else if (env.BRANCH_NAME == 'develop') {
+              dockerImage.push("dev")
+            }
+          }
+        }
+        sh "docker rmi $registry:$BUILD_NUMBER"
+      }
+    }
+  }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 560px; left: 671px; top: 166px;" data-block-id="20e788da825d834a05d42aaf4d82ef4b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;" dir="ui">
+<p> </p>
+
+<p style="font-size:15px">5. Push image to Docker Hub with tag:</p>
+
+<p style="font-size:15px"><span style="color:#FFFF00">bdapi-kits:master</span></p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">6. Update the Kubernetes <span style="color:#FFFF00">bdapi-kits </span>service's running image using <span style="color:#FFFF00">kubectl</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="width: 618px; height: 144px; left: 653px; top: 191px;" data-block-id="e46a2653f48f13eb830e84c0039a33da"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 618 144"><defs><clippath id="shape-mask-3-1556826333592"><rect width="618" height="144" rx="0" ry="0"></rect></clippath></defs><rect width="618" height="144" rx="0" ry="0" clip-path="url(#shape-mask-3-1556826333592)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 31px; top: 382px;" data-block-id="aa5a05cb22bcf077de023f1085b8e573"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; line-height: 0.9099999999999999;" dir="ui" data-has-line-height="">
+<p>For homepage:</p>
+
+<p><span style="color:#FFFF00"><span style="font-size:0.5em">(bdweb-static) / buildarium.com</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 560px; left: 40px; top: 444px;" data-block-id="93c5f3349ebd67e3c051d193a22472dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; text-align: left;" dir="ui">
+<p> </p>
+
+<p style="font-size:15px">5. Push image to Docker Hub with tag:</p>
+
+<p style="font-size:15px"><span style="color:#FFFF00">bdweb-static:master</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="width: 618px; height: 88px; left: 22px; top: 469px;" data-block-id="e46f895957701758f4cdc2909e376b50"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 15;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 618 88"><defs><clippath id="shape-mask-4-1556826472094"><rect width="618" height="88" rx="0" ry="0"></rect></clippath></defs><rect width="618" height="88" rx="0" ry="0" clip-path="url(#shape-mask-4-1556826472094)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 660px; top: 104px;" data-block-id="4379558a018c2402b8815232aae5bb8f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; line-height: 0.9099999999999999;" dir="ui" data-has-line-height="">
+<p>For Kubernetes:</p>
+
+<p><span style="color:#FFFF00"><span style="font-size:0.5em">(bdapi-*) / api.buildarium.com</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 591px; left: 40px; top: 596px;" data-block-id="1753f85855c43fd739d1b5e716d24afb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; text-align: left;" dir="ui">
+<p> </p>
+
+<p style="font-size:15px">6. Github Pages automatically builds and deploys a static site off of <span style="color:#FFFF00">master</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="width: 618px; height: 88px; left: 22px; top: 617px;" data-block-id="e014fb9eacd82237aadb7e5c31847516"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 18;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 618 88"><defs><clippath id="shape-mask-5-1556826629761"><rect width="618" height="88" rx="0" ry="0"></rect></clippath></defs><rect width="618" height="88" rx="0" ry="0" clip-path="url(#shape-mask-5-1556826629761)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 320px; top: 557px;" data-block-id="11bcb2010e0665e17bf492b705e41a3c"><div class="sl-block-content" data-line-x1="-220" data-line-y1="357" data-line-x2="-220" data-line-y2="297" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 20;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="60" viewbox="-220 297 1 60"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-220" y1="357" x2="-220" y2="303"></line><line stroke="#ffffff" stroke-width="4" x1="-220" y1="357" x2="-220" y2="303"></line><rect width="12" height="12" fill="#ffffff" x="-6" y="-6" transform="translate(-220,303) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 662px; top: 382px;" data-block-id="96953886e369a432d76aeb0d2b9a6636"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 22; line-height: 0.9099999999999999;" dir="ui" data-has-line-height="">
+<p>For SPA:</p>
+
+<p><span style="color:#FFFF00"><span style="font-size:0.5em">(bdweb-app) / app.buildarium.com</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 560px; left: 671px; top: 444px;" data-block-id="cccb6cafe9d999c25bbef67776e64568"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 24; text-align: left;" dir="ui">
+<p> </p>
+
+<p style="font-size:15px">5. Push image to Docker Hub with tag:</p>
+
+<p style="font-size:15px"><span style="color:#FFFF00">bdweb-app:master</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="width: 618px; height: 88px; left: 653px; top: 469px;" data-block-id="08f72be394fb1b6825c3713cb57e291f"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 23;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 618 88"><defs><clippath id="shape-mask-6-1556826699088"><rect width="618" height="88" rx="0" ry="0"></rect></clippath></defs><rect width="618" height="88" rx="0" ry="0" clip-path="url(#shape-mask-6-1556826699088)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 591px; left: 671px; top: 596px;" data-block-id="83084f9d9c4b327a2faa82ad886395af"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 26; text-align: left;" dir="ui">
+<p> </p>
+
+<p style="font-size:15px">6. Azure App Service gets called from <span style="color:#FFFF00">webhook on Docker Hub</span> to update image</p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="width: 618px; height: 88px; left: 653px; top: 617px;" data-block-id="9e60f3a4591cebb7b5a701e9ca883535"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 25;" data-shape-stroke-color="#ffffff" data-shape-stroke-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 618 88"><defs><clippath id="shape-mask-7-1556826699100"><rect width="618" height="88" rx="0" ry="0"></rect></clippath></defs><rect width="618" height="88" rx="0" ry="0" clip-path="url(#shape-mask-7-1556826699100)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffffff" stroke-width="8"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 962px; top: 557px;" data-block-id="bc25ff16adfb34875ac8601a6bae8e44"><div class="sl-block-content" data-line-x1="-220" data-line-y1="357" data-line-x2="-220" data-line-y2="297" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 27;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="60" viewbox="-220 297 1 60"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-220" y1="357" x2="-220" y2="303"></line><line stroke="#ffffff" stroke-width="4" x1="-220" y1="357" x2="-220" y2="303"></line><rect width="12" height="12" fill="#ffffff" x="-6" y="-6" transform="translate(-220,303) rotate(0)"></rect></svg></div></div></section></section><section class="stack" data-id="5069bceefc3992e752a26e8c19697944"><section data-id="6a1f656ee8cbfa4350afa84e0b6d7170" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 274px; height: auto;" data-block-id="297e2387078bb12b144ac5e40ca5ea81"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Routing</h1>
+</div></div></section><section data-id="a1f94fe8493b231566716459e4fb7198" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 268px; height: 96px; left: 530px; top: 310px;" data-block-id="dbe08e20994547baae62c03ef1aa9fba"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="874" data-natural-height="261" style="left: -203px; top: 0px; width: 471px; height: 141px;" data-lazy-loaded="" data-crop-x="0.43128" data-crop-y="0" data-crop-width="0.56872" data-crop-height="0.68254" data-src="buildariumstack/f7e80dc2d629aa6d7aa732a0f68c3c2e.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 254px; left: 0px; top: 16px;" data-block-id="cb80e0b1789c3ce9118239e863f3ab43"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>User</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 254px; left: 537px; top: 16px;" data-block-id="ba2a51def17e87e1991d075860e349f9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p>DNS</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 960px; top: 16px;" data-block-id="0fcdf50c334eb505054262bfa01d829f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p>Infra</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 149px; height: 149px; left: 1046px; top: 283px;" data-block-id="c286f75bbb20cffb094215344ba51b2d"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="500" data-natural-height="500" style="" data-lazy-loaded="" data-src="buildariumstack/3742c4f27999d60be45d61730b8966ed.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 292px; left: 974px; top: 406px;" data-block-id="3d8d8a45ed2753d3f55202589faea10e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.5em">Azure App Service</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 292px; left: 518px; top: 413px;" data-block-id="21253da7d2700643ec07bb8e3c6d50a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p><span style="font-size:0.5em">Cloudflare DNS</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 84px; height: 84px; left: 85px; top: 329px;" data-block-id="bdcdfc07541fddddc0c55bd7b0f092e0"><div class="sl-block-content" data-shape-type="symbol-smiley" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 32 32"><g class="shape-element" fill="rgb(255, 255, 255)"><path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM8 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2-1.105 0-2-0.895-2-2zM20 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2-1.105 0-2-0.895-2-2zM22.003 19.602l2.573 1.544c-1.749 2.908-4.935 4.855-8.576 4.855s-6.827-1.946-8.576-4.855l2.573-1.544c1.224 2.036 3.454 3.398 6.003 3.398s4.779-1.362 6.003-3.398z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 135px; height: 112px; left: 1053px; top: 504px;" data-block-id="1b0e0827061e4c8d3c7348e60e88ff6d"><div class="sl-block-content" style="z-index: 19;"><img data-natural-width="512" data-natural-height="425" style="" data-lazy-loaded="" data-src="buildariumstack/8c7c530435842931f7786c76e87ada92.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 292px; left: 974px; top: 609px;" data-block-id="abab8e069de08fd2bb3f119b8bfd123a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;">
+<p><span style="font-size:0.5em">Azure Kubernetes Service</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 115px; height: 115px; left: 1063px; top: 87px;" data-block-id="309e87449c53689f5e446d7936219065"><div class="sl-block-content" style="z-index: 21; border-width: 1px;"><img data-natural-width="256" data-natural-height="256" style="" data-lazy-loaded="" data-src="buildariumstack/97662abebabd00ef2547e10814710b91.png"></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 132px; height: 132px; left: 1054px; top: 78px;" data-block-id="70412440ee3e9ebd847fc27654844410"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;" data-shape-corner-radius="10px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 132 132"><rect width="132" height="132" rx="10" ry="10" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 292px; left: 974px; top: 216px;" data-block-id="11b439f29fe7a08f25f1b70ad901d933"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 22;">
+<p><span style="font-size:0.5em">Github Pages</span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 213px; top: 370px;" data-block-id="f821b62b777d83ebccb842f3bec86b32"><div class="sl-block-content" data-line-x1="-332" data-line-y1="100" data-line-x2="0" data-line-y2="100" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="circle" style="z-index: 23;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="332" height="1" viewbox="-332 100 332 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-326" y1="100" x2="-6" y2="100"></line><line stroke="#ffffff" stroke-width="4" x1="-326" y1="100" x2="-6" y2="100"></line><ellipse rx="6" ry="6" cx="-6" cy="100" fill="#ffffff"></ellipse><rect width="12" height="12" fill="#ffffff" x="-6" y="-6" transform="translate(-326,100) rotate(90)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 802px; top: 144px;" data-block-id="2806d87205a43788c1192c4c73170bf4"><div class="sl-block-content" data-line-x1="-261" data-line-y1="100" data-line-x2="-30" data-line-y2="-116" data-line-color="#ffffff" data-line-start-type="circle" data-line-end-type="square" style="z-index: 24;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="231" height="216" viewbox="-261 -116 231 216"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-257" y1="96" x2="-34" y2="-112"></line><line stroke="#ffffff" stroke-width="4" x1="-257" y1="96" x2="-34" y2="-112"></line><ellipse rx="6" ry="6" cx="-257" cy="96" fill="#ffffff"></ellipse><rect width="12" height="12" fill="#ffffff" x="-6" y="-6" transform="translate(-34,-112) rotate(46.922)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 798px; top: 360px;" data-block-id="e60585d238acb19358b53be3cd321e9e"><div class="sl-block-content" data-line-x1="-267" data-line-y1="-116" data-line-x2="-30" data-line-y2="-116" data-line-color="#ffffff" data-line-start-type="circle" data-line-end-type="square" style="z-index: 25;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="237" height="1" viewbox="-267 -116 237 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-261" y1="-116" x2="-36" y2="-116"></line><line stroke="#ffffff" stroke-width="4" x1="-261" y1="-116" x2="-36" y2="-116"></line><ellipse rx="6" ry="6" cx="-261" cy="-116" fill="#ffffff"></ellipse><rect width="12" height="12" fill="#ffffff" x="-6" y="-6" transform="translate(-36,-116) rotate(90)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 802px; top: 358px;" data-block-id="1c7c12ea902ed7ee112e5b1b8c41f048"><div class="sl-block-content" data-line-x1="-263" data-line-y1="100" data-line-x2="-32" data-line-y2="318" data-line-color="#ffffff" data-line-start-type="circle" data-line-end-type="square" style="z-index: 26;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="231" height="218" viewbox="-263 100 231 218"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-259" y1="104" x2="-36" y2="314"></line><line stroke="#ffffff" stroke-width="4" x1="-259" y1="104" x2="-36" y2="314"></line><ellipse rx="6" ry="6" cx="-259" cy="104" fill="#ffffff"></ellipse><rect width="12" height="12" fill="#ffffff" x="-6" y="-6" transform="translate(-36,314) rotate(133.342)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 21px; height: 21px; left: 795px; top: 350px;" data-block-id="db2b54134f4b3bedacaf51aaabaa7ccd"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 27;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 21 21"><ellipse rx="10.5" ry="10.5" cx="10.5" cy="10.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 268px; left: 774px; top: 205px;" data-block-id="ced843b1d6a56f2d7e51f0d2a8dd1a76"><div class="sl-block-style" style="z-index: 28; transform: rotate(318deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 28; color: rgb(255, 255, 0);">
+<p><span style="font-size:0.5em">* .com</span></p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 268px; left: 806px; top: 321px;" data-block-id="ebf1f924f61ec66a8ba411b0ba005e01"><div class="sl-block-style" style="z-index: 29; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29; color: rgb(255, 255, 0);">
+<p><span style="font-size:15px">app. * .com</span></p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 268px; left: 773px; top: 460px;" data-block-id="aa54b2a108e673fbe85f5d136fe13903"><div class="sl-block-style" style="z-index: 30; transform: rotate(45deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 30; color: rgb(255, 255, 0);">
+<p><span style="font-size:0.5em">api. * .com</span></p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 860px; left: 20px; top: 467px;" data-block-id="32ebfc2879f7eb5a3722de7ddb276054"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 31;">
+<p style="text-align:left"><span style="font-size:0.5em"><span style="color:#FFFF00">Cloudflare</span> does all DNS routing and has it's own <span style="color:#FFFF00">SSL certificate</span> with the user.</span></p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left"><span style="font-size:0.5em">If a piece of infrastructure goes down, Cloudflare will serve a cached version or inform the user if no cache.</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 48px; height: 62px; left: 352px; top: 283px;" data-block-id="1c13347e4f77edc63c66a5ea91384620"><div class="sl-block-content" data-shape-type="symbol-lock" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 32;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 32"><g class="shape-element" fill="rgb(255, 255, 255)"><path d="M14 0c-5.508 0-9.996 4.484-9.996 10v2h-4.004v14c0 3.309 2.691 6 6 6h12c3.309 0 6-2.691 6-6v-16c0-5.516-4.488-10-10-10zM11.996 24c-1.101 0-1.996-0.895-1.996-2s0.895-2 1.996-2c1.105 0 2 0.895 2 2s-0.894 2-2 2zM20 12h-11.996v-2c0-3.309 2.691-6 5.996-6 3.309 0 6 2.691 6 6v2z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 27px; height: 35px; left: 933px; top: 159px;" data-block-id="4cae00192fdb608d9f7353a025f63d84"><div class="sl-block-content" data-shape-type="symbol-lock" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 33;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 32"><g class="shape-element" fill="rgb(255, 255, 255)"><path d="M14 0c-5.508 0-9.996 4.484-9.996 10v2h-4.004v14c0 3.309 2.691 6 6 6h12c3.309 0 6-2.691 6-6v-16c0-5.516-4.488-10-10-10zM11.996 24c-1.101 0-1.996-0.895-1.996-2s0.895-2 1.996-2c1.105 0 2 0.895 2 2s-0.894 2-2 2zM20 12h-11.996v-2c0-3.309 2.691-6 5.996-6 3.309 0 6 2.691 6 6v2z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 27px; height: 35px; left: 927px; top: 297px;" data-block-id="7c251240fa8c70ba49e99fea0ec30195"><div class="sl-block-content" data-shape-type="symbol-lock" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 34;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 32"><g class="shape-element" fill="rgb(255, 255, 255)"><path d="M14 0c-5.508 0-9.996 4.484-9.996 10v2h-4.004v14c0 3.309 2.691 6 6 6h12c3.309 0 6-2.691 6-6v-16c0-5.516-4.488-10-10-10zM11.996 24c-1.101 0-1.996-0.895-1.996-2s0.895-2 1.996-2c1.105 0 2 0.895 2 2s-0.894 2-2 2zM20 12h-11.996v-2c0-3.309 2.691-6 5.996-6 3.309 0 6 2.691 6 6v2z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 27px; height: 35px; left: 927px; top: 426px;" data-block-id="0a2f47b67c2e088525dc32c35f5fcf0a"><div class="sl-block-content" data-shape-type="symbol-unlock" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 36;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 32"><g class="shape-element" fill="rgb(255, 255, 255)"><path d="M14.004 0c-5.516 0-9.996 4.484-9.996 10h3.996c0-3.309 2.688-6 6-6 3.305 0 5.996 2.691 5.996 6v2h-20v14c0 3.309 2.695 6 6 6h12c3.305 0 6-2.691 6-6v-16c0-5.516-4.488-10-9.996-10zM12 24c-1.102 0-2-0.895-2-2s0.898-2 2-2c1.109 0 2 0.895 2 2s-0.891 2-2 2z"></path></g></svg></div></div></section><section data-id="70b8c7d57820ffddd7ca5e4b6a67f341" data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 103px; top: 7px; height: auto;" data-block-id="27e312b44cefb2f54f7d7f92cc87104c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Within Kubernetes</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1015px; left: 133px; top: 81px;" data-block-id="d73ec39af8e346c549d3eca5c3aa42b1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Routing with many micro services</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 481px; top: 157px;" data-block-id="e266bb3b33ca29629a6f3fc0a1bea7fc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">Ambassador Gateway</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 481px; top: 144px;" data-block-id="fc970840e4c464f28ecf6a4ac08ee18e"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 482px; top: 553px;" data-block-id="a459c6acecf6e8961e25f7c9e25a76e4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">bdapi-kits Service</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 482px; top: 540px;" data-block-id="1d144f40eae7ff2750dea43a9259892a"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 641px; top: 210px;" data-block-id="4df175f85abc6bc393873b0ae1f74655"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="100" data-line-y2="-86" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="square" style="z-index: 16;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="150" viewbox="100 -86 1 150"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="100.5" y2="-77.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(100,-78) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 81px; top: 553px;" data-block-id="34fe3e423d87de3257eaa8658cb0fd97"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">bdapi-docs Service</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 81px; top: 540px;" data-block-id="ba7ec6bcff26b5c2c67898997e33c0d2"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 881px; top: 553px;" data-block-id="7387e21ae001feebe8464ad86529f69c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);">
+<p><span style="font-size:0.5em">bdapi-auth Service</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 320px; height: 72px; left: 881px; top: 540px;" data-block-id="06e0effa085a229f4ef913084c8d6c84"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 19;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 320 72"><rect width="320" height="72" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 240px; top: 360px;" data-block-id="1c4f263dd60e220c777caf57a3c86611"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="-301" data-line-y2="64" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 21;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="401" height="1" viewbox="-301 64 401 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="-300.5" y2="64.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="-300.5" y2="64.5"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 240px; top: 360px;" data-block-id="3ec058afd78ad35ac8e095fc0acd81f9"><div class="sl-block-content" data-line-x1="-301" data-line-y1="244" data-line-x2="-301" data-line-y2="64" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="none" style="z-index: 22;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="180" viewbox="-301 64 1 180"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-300.5" y1="237.5" x2="-300.5" y2="64.5"></line><line stroke="#ffffff" stroke-width="5" x1="-300.5" y1="237.5" x2="-300.5" y2="64.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(-301,237) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 640px; top: 360px;" data-block-id="df6228381f1d375f584488d68177844b"><div class="sl-block-content" data-line-x1="100" data-line-y1="64" data-line-x2="-301" data-line-y2="64" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 23;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="401" height="1" viewbox="-301 64 401 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="100.5" y1="64.5" x2="-300.5" y2="64.5"></line><line stroke="#ffffff" stroke-width="5" x1="100.5" y1="64.5" x2="-300.5" y2="64.5"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 640px; top: 360px;" data-block-id="ba86acbfda922bfe9bb25993584050f6"><div class="sl-block-content" data-line-x1="-299" data-line-y1="244" data-line-x2="-301" data-line-y2="64" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="none" style="z-index: 24;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="2" height="180" viewbox="-301 64 2 180"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-298.5" y1="237.5" x2="-300.5" y2="64.5"></line><line stroke="#ffffff" stroke-width="5" x1="-298.5" y1="237.5" x2="-300.5" y2="64.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(-299,237) rotate(-0.637)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 1041px; top: 360px;" data-block-id="371659499e03d4d35ad4f52adf68f003"><div class="sl-block-content" data-line-x1="-301" data-line-y1="244" data-line-x2="-301" data-line-y2="64" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="none" style="z-index: 25;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="180" viewbox="-301 64 1 180"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-300.5" y1="237.5" x2="-300.5" y2="64.5"></line><line stroke="#ffffff" stroke-width="5" x1="-300.5" y1="237.5" x2="-300.5" y2="64.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(-301,237) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 75px; height: 75px; left: 203px; top: 634px;" data-block-id="e36516e841a8daaa404c176ad2d481dc"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 26;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 75 75"><ellipse rx="37.5" ry="37.5" cx="37.5" cy="37.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 61px; left: 210px; top: 648px;" data-block-id="d44d6cfafb5fc4a5a9d31b1feb5cc511"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27;">
+<p><span style="font-size:0.5em"><span style="color:#000000">Pod</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 240px; top: 612px;" data-block-id="53554c5e0b45ef7568a54668404dfddc"><div class="sl-block-content" data-line-x1="-301" data-line-y1="244" data-line-x2="-301" data-line-y2="213" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="none" style="z-index: 28;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="31" viewbox="-301 213 1 31"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-300.5" y1="237.5" x2="-300.5" y2="213.5"></line><line stroke="#ffffff" stroke-width="5" x1="-300.5" y1="237.5" x2="-300.5" y2="213.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(-301,237) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 75px; height: 75px; left: 603px; top: 634px;" data-block-id="bb4d82de901d33a631ed01be985b5c91"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 75 75"><ellipse rx="37.5" ry="37.5" cx="37.5" cy="37.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 61px; left: 610px; top: 648px;" data-block-id="7edd71f4ef832aa3fdf210969ea7b592"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 30;">
+<p><span style="font-size:0.5em"><span style="color:#000000">Pod</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 640px; top: 612px;" data-block-id="e0bbe4fff03d05571fbb674118d55c3e"><div class="sl-block-content" data-line-x1="-301" data-line-y1="244" data-line-x2="-301" data-line-y2="213" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="none" style="z-index: 31;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="31" viewbox="-301 213 1 31"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-300.5" y1="237.5" x2="-300.5" y2="213.5"></line><line stroke="#ffffff" stroke-width="5" x1="-300.5" y1="237.5" x2="-300.5" y2="213.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(-301,237) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 75px; height: 75px; left: 1004px; top: 634px;" data-block-id="e4689027d965d77b5c47f06cf9ad322f"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 32;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 75 75"><ellipse rx="37.5" ry="37.5" cx="37.5" cy="37.5" class="shape-element" fill="rgb(255, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 61px; left: 1011px; top: 648px;" data-block-id="7c3b0ffcb7a7cdf29910b460eeed0845"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 33;">
+<p><span style="font-size:0.5em"><span style="color:#000000">Pod</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 1041px; top: 612px;" data-block-id="3a3ad80665a2eb74ec63249db82d261c"><div class="sl-block-content" data-line-x1="-301" data-line-y1="244" data-line-x2="-301" data-line-y2="213" data-line-color="#ffffff" data-line-start-type="square" data-line-end-type="none" style="z-index: 34;" data-line-width="5px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="31" viewbox="-301 213 1 31"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-300.5" y1="237.5" x2="-300.5" y2="213.5"></line><line stroke="#ffffff" stroke-width="5" x1="-300.5" y1="237.5" x2="-300.5" y2="213.5"></line><rect width="15" height="15" fill="#ffffff" x="-7.5" y="-7.5" transform="translate(-301,237) rotate(0)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 132px; left: 254px; top: 321px;" data-block-id="0421f8eb30cde7a3ae3d66a88afb6f3c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 35;">
+<p><span style="font-size:0.5em"><span style="color:#FFFF00">/docs/</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 132px; left: 894px; top: 321px;" data-block-id="189b10a738fea4ac30b6ccfa879eaae5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 36;">
+<p><span style="font-size:0.5em"><span style="color:#FFFF00">/auth/</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 132px; left: 626px; top: 431px;" data-block-id="b78f615bfc3b718ac00cce3349b92770"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 37;">
+<p><span style="font-size:0.5em"><span style="color:#FFFF00">/kit/</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 395px; left: 57px; top: 129px;" data-block-id="cf4f673ef24a363b2fce716c68053a2f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 38; text-align: right;">
+<p><span style="font-size:0.5em">Ambassador is the only publicly-accessible service running as an Ingress on <span style="color:#FFFF00">137.117.37.10</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 395px; left: 829px; top: 129px;" data-block-id="55220ada211b230f3f1a6d18eb6c47c9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 40; text-align: left;">
+<p><span style="font-size:15px">Ambassador routes traffic to proper microservices based off of prefixes:</span></p>
+
+<p><span style="font-size:15px">api.buildarium.com<span style="color:#FFFF00">/kit/</span>me</span></p>
+</div></div></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="586fc0eaedd155772a362c0bc18cd32a"><div class="sl-block" data-block-type="text" style="width: 631px; left: 640px; top: 0px; height: auto;" data-block-id="cee97d27f7ff0498d82a73e43377ee7c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h1><span style="font-size:52.5px">Kube YAML</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 624px; height: 701px; left: 16px; top: 10px;" data-block-id="69a82262c141ac69ef10c4ee375d69e9"><div class="sl-block-content notranslate" data-highlight-theme="solarized-dark" style="z-index: 12; font-size: 63%;"><pre class="yaml"><code data-line-numbers="6-14|19-21,53-55|43-52">---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bdapi-kits
+  annotations:
+    getambassador.io/config: |
+      ---
+      apiVersion: ambassador/v1
+      kind:  Mapping
+      name:  bdapi-kits_mapping
+      prefix: /kit/
+      rewrite: /kit/
+      service: bdapi-kits
+spec:
+  selector:
+    app: bdapi-kits
+  ports:
+  - port: 80
+    name: http-bdapi-kits
+    targetPort: http-api
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: bdapi-kits
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: bdapi-kits
+    spec:
+      containers:
+      - name: bdapi-kits
+        image: buildarium/bdapi-kits:latest
+        imagePullPolicy: "Always"
+        env:
+        - name: ENV
+          value: "prod"
+        - name: DBUSER
+          valueFrom:
+            secretKeyRef:
+              name: bdapi-secret
+              key: neouser
+        - name: DBPASS
+          valueFrom:
+            secretKeyRef:
+              name: bdapi-secret
+              key: neopass
+        ports:
+        - name: http-api
+          containerPort: 80
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 560px; left: 680px; top: 128px;" data-block-id="89f68468669f99a088d9390a78a83be8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;" dir="ui">
+<p><span style="font-size:15px">1. A<span style="font-size:0.9em">mbassador looks for annotations</span></span><span style="font-size:0.9em"> <span style="font-size:0.5em">for routing to other services</span></span></p>
+
+<p> </p>
+
+<p style="font-size:15px">2. Linking services to deployments &amp; configure ports</p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px"> </p>
+
+<p style="font-size:15px">3. Inject username and password for database as container environment variables using Kubernetes Secrets</p>
+</div></div></section></section><section data-background-iframe="https://buildarium.github.io/bdweb-slides/background.html" data-id="23a25c1c97c13ca4f7b7b9ca25f9bebe"><div class="sl-block" data-block-type="text" style="width: 1075px; left: 102px; top: 274px; height: auto;" data-block-id="7ffb2abce42e50d8400fc0f9844cb31a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Thanks!</h1>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1492088,"slug":"buildariumstack","title":"Buildarium Stack","description":"","width":1280,"height":720,"visibility":"all","published_at":"2019-05-02T06:16:53.069Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/60f0bdb9f6904cccc61cf40233c09d7e/thumb.jpg?1556809194","view_count":1,"user":{"id":1053538,"username":"bucktower","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/9f39f2d23334d11c83e9c57273d80fd4?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":true,"lite":false,"team_id":null,"settings":{"id":3154181,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"quicksand","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":32,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":3,"data_updated_at":1556830449893,"font_typekit":"","font_google":"Press Start 2P","time_limit":null,"upsizing_enabled":true,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 1280,
+				height: 720,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js' },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
